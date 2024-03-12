@@ -36,3 +36,15 @@ public class soma {
         System.out.println("A soma de 1 até 1000 é: " + soma);
     }
 }
+
+
+
+public class fator {
+    public static void main(String[] args) {
+        double fatorial = 1;
+        for (int n = 1; n <= 10; n++) {
+            fatorial *= n;
+            System.out.println("Fatorial de " + n + ": " + fatorial);
+        }
+    }
+}
